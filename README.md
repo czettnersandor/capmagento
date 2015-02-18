@@ -23,6 +23,10 @@ Install the depencies
 
     $ bundle install
 
+Add it to the Capfile:
+
+    require 'capmagento'
+
 Use capistrano through bundle
 
     $ bundle exec cap mage:cc
