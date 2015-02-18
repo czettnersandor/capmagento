@@ -25,7 +25,7 @@ Install the depencies
 
 Add it to the Capfile:
 
-    require 'capmagento'
+    require 'capistrano/magento'
 
 Use capistrano through bundle
 
