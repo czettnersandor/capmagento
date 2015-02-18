@@ -1,1 +1,1 @@
-load File.expand_path('tasks/magento.rake', __FILE__)
+load File.expand_path('../capistrano/tasks/magento.rake', __FILE__)
