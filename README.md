@@ -7,9 +7,9 @@ This gem provides a number of tasks which are useful for deploying Magento proje
 
 ### From RubyGems.org
 
-    $ gem install capdrupal
+    $ gem install capmagento
 
-### Install with Bundler (recomanded)
+### Install with Bundler (recommended)
 
 This version use capistrano 3. To avoid conflicts, I recommend to install both capistrano and capmagento from Bundler.
 
