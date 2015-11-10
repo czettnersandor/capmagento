@@ -7,6 +7,13 @@ namespace :mage do
     end
   end
 
+  desc 'Clear JS/CSS cache.'
+  task :css do
+    on release_roles :all do
+      execute "cd #{current_path} && php -r \"require_once 'app/Mage.php'; umask(0); Mage::getModel('core/design_package')->cleanMergedJsCss();\""
+    end
+  end
+
   desc 'Clear Cheetah Cache'
   task :hwscc do
     on release_roles :all do

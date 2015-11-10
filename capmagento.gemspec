@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name         = 'capmagento'
-  spec.version      = '1.0.2'
+  spec.version      = '1.0.3'
   spec.license      = 'MIT'
   spec.authors  = [ "Sandor Czettner" ]
   spec.email    = 'sandor@czettner.hu'
